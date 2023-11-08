@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+        <title>Taniti Island</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <img id="back" src="volcano.jpg" alt="volcano" style="opacity: 0.4">
+        <h1 id="title">Taniti Island</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="sights.html">Sights</a>
+            <a href="food.html">Restaurants</a>
+            <a href="activities.html">Activities</a>
+            <a href="lodging.html">Lodging</a>
+        </nav>
+        <div id="book1">
+          <label for="lodging" id="one">Lodging:</label>
+            <select name="lodging" id="one">
+                <option value="resort">Resort</option>
+                <option value="hotel">Bed &amp; Breakfast</option>
+            </select>
+            <label for="transport" id="one">Transportation:</label>
+            <select name="transport" id="one">
+                <option value="Plane">Plane</option>
+                <option value="ferry">Ferry</option>
+            </select>
+            <label for="people" id="one">Number Of People:</label>
+            <input type="number" id="one" name="people" min="1" max="10">
+        </div>
+        <div id="card">
+            <p>Payment:</p>
+            <label for="card" style="font-size: 20px;">Credit Card Number:</label>
+            <input type="text" id="card" name="card" minlength="16" maxlength="16" required>
+        </div>
+        <div id="cardb">
+            <label for="exp" id="two">Expiration Date:</label>
+            <input type="date" name="exp" id="two" required>
+            <label for="sec" id="two">Security Number:</label>
+            <input type="number" max="999" name="sec" id="two" required>
+            <a id="booked" href="final.html">Continue</a>
+        </div>
+         <footer>
+            <a href="./index.html">Home</a>
+            <a href="sights.html">Sights</a>
+            <a href="food.html">Restaurants</a>
+            <a href="activities.html">Activities</a>
+            <a href="lodging.html">Lodging</a>
+            <a href="faqs.html">FAQs</a>
+        </footer>
+    </body>
+</html>
